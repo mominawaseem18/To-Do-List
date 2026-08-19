@@ -1,0 +1,23 @@
+.Item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(228, 228, 228);
+  padding: 0px 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 45px;
+}
+.Item:hover {
+  background-color: blanchedalmond;
+}
+
+.Item button {
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  font-size: 17px;
+}
+.Item button:hover {
+  transform: scale(0.8);
+}
